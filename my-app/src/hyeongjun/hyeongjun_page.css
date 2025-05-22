@@ -1,0 +1,103 @@
+.hyeongjun-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-title {
+  color: #0095f1;
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.intro strong {
+  color: #e91e63;
+}
+
+.github a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github a:hover {
+  color: #0068d8;
+  text-decoration: underline;
+}
+
+.profile-image {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.headings h1,
+.headings h2,
+.headings h3,
+.headings h4,
+.headings h5,
+.headings h6 {
+  margin-top: 16px;
+  color: #333;
+}
+
+.test {
+  width: 400px;
+  height: 200px;
+
+  background-color: red;
+  color: white;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  margin: 20px;
+  padding: 16px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+
+  transition: all 0.3s ease;
+}
+
+.test:hover {
+  width: 500px;
+  height: 100px;
+
+  background-color: orange;
+  color: black;
+
+  font-size: 40px;
+  font-weight: bold;
+
+  border: 1px solid black;
+  border-radius: 40px;
+
+  transition: all 0.3s ease;
+}
+
+/* 반응형 */
+/* @media (max-width: 600px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 20px;
+  }
+} */
