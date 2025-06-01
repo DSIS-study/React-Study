@@ -1,7 +1,9 @@
+import './somin_page.css';
+
 export default function SominPage() {
   return (
-    <div>
-      <h1>안녕하세요. 저는 정소민입니다. </h1>
+    <div className="somin-container">
+      <h1 className='title'>안녕하세요. 저는 정소민입니다. </h1>
       <h2>
         {' '}
         <span>컴퓨터공학과 25학번입니다.</span>
@@ -12,7 +14,7 @@ export default function SominPage() {
         보기 입니다
       </p>
       <h3>감사합니다</h3>
-      <h6>thank you</h6>{' '}
+      <h6 className='thank'>thank you</h6>{' '}
     </div>
   );
 }
