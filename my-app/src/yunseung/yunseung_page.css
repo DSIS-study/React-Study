@@ -1,3 +1,17 @@
 .yunseung-container {
   background-color: yellow;
 }
+.hello {
+  background-color: green;
+}
+
+.name {
+  background-color: purple;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+}
+.name:hover {
+  background-color: blue;
+}
